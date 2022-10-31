@@ -47534,7 +47534,7 @@ A.pr.prototype={
 au(){return new A.t0(B.l)}}
 A.t0.prototype={
 Jf(){var s,r,q
-try{$.kT().hk("window.TesterMachine.postMessage",["This is alert message"])}catch(r){s=A.al(r)
+try{$.kT().hk("postMessage",["This is alert message"])}catch(r){s=A.al(r)
 q=$.kT()
 q.hk("alert",[J.cV(s)])}this.ar(new A.WU(this))},
 L(a){var s,r=null
